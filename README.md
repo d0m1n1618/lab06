@@ -5,9 +5,9 @@ W ramach laboratorium przygotowano prosty projekt ML z użyciem biblioteki `scik
 ### 1. Przygotowanie projektu ML
 - utworzono repozytorium GitHub `lab06`,
 - dodano pliki projektu, m.in.:
-  - `model.py` – logika trenowania modelu i predykcji,
-  - `test_model.py` – testy jednostkowe,
-  - `requirements.txt` – wymagane biblioteki.
+  - `model.py` - logika trenowania modelu i predykcji,
+  - `test_model.py` - testy jednostkowe,
+  - `requirements.txt` - wymagane biblioteki.
 
 ### 2. Testy jednostkowe
 Przygotowano 4 testy jednostkowe w `pytest`, które sprawdzają:
