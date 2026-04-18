@@ -1,8 +1,6 @@
-# LAB06 – Testy jednostkowe i CI/CD dla projektu ML
+# LAB06 - Testy jednostkowe i CI/CD dla projektu ML
 
 W ramach laboratorium przygotowano prosty projekt ML z użyciem biblioteki `scikit-learn` oraz skonfigurowano automatyczne testowanie i publikację obrazu Dockera.
-
-## Co zostało zrobione
 
 ### 1. Przygotowanie projektu ML
 - utworzono repozytorium GitHub `lab06`,
@@ -21,7 +19,7 @@ Przygotowano 4 testy jednostkowe w `pytest`, które sprawdzają:
 Testy zostały uruchomione lokalnie i zakończyły się wynikiem:
 - `4 passed`
 
-### 3. GitHub Actions – automatyczne testowanie
+### 3. GitHub Actions - automatyczne testowanie
 Dodano workflow GitHub Actions w folderze:
 - `.github/workflows/python-tests.yml`
 
@@ -42,5 +40,4 @@ Skonfigurowano drugi workflow GitHub Actions, który:
 Obraz został poprawnie opublikowany jako:
 - `ghcr.io/d0m1n1618/lab06:latest`
 
-## Wniosek
 Laboratorium pozwoliło przećwiczyć przygotowanie projektu ML, napisanie testów jednostkowych oraz automatyzację testowania i publikacji obrazu Dockera z użyciem GitHub Actions.
